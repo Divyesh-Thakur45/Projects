@@ -1,0 +1,244 @@
+@media(min-width:320px) and (max-width:576px)
+{
+
+    .nav-con ul li a::after{display: none;}
+    .responsive{display: flex;justify-content: space-between;background-color: #303030;align-items: center;}
+    .logo1{margin: 20px 0px 30px 0px;height: 40px;width: 100px;}
+    .logo-img1{height: 100%;width: 100%;padding: 0px 12px;}
+    .bar{display: block;}
+    .bar-icone{background-color: #303030;color: white; padding: 12px 15px;border-radius: 50px;}
+    #navigation{width: 100%;display: none;}
+    .sub-navigation{width: 100%;height: 55vh;flex-direction: column;}
+    .logo{margin: 20px 0px 30px 0px;height: 60px;width: 60%;display: none;}
+    .nav-con{margin: 20px 0px 0px 55px;}
+    .nav-con ul li{padding-bottom: 40px;}
+    .nav-con ul{display: flex; flex-direction: column;}
+    .nav-con ul li a{font-size: 18px;}
+    .icone{display: none;}
+
+    /* .title{height: 100vh;} */
+    .title{padding: 70px 0px 0px 0px;}
+    .title p{padding: 1% 0% 5% 5%;}
+    .title a{margin: 0% 0% 0% 5%;}
+
+    /*  dance  */
+    .dance-tour{height: 300vh;}
+    .main-box{display: flex; flex-direction: column;}
+    .box{height: 85vh;width: 100%;margin-top: 25px; background-color: #303030;}
+    .dance-tour h1{font-size: 22px;}
+    .dance-tour p{text-align: center;}
+
+
+
+    /* price page */
+    .price-page{height: 285vh;}
+    .dots{width: 100%;height: 50%;}
+    .dots1{left: 50%;top: 90%; height: 50%;width: 100%;}
+    .price-box{width: 90%;height: 80vh;margin: 5% auto;}
+    .main-price-box{display: flex;flex-direction: column;}
+    .box{width: 90%;margin:5% auto;}
+    .price-page h1{font-size: 22px;}
+    .price-page p{text-align: center;}
+
+    /* Amazing Dance */
+    .Amazing-Dance{height: 2200px;}
+    .pic-1{width: 100%;height: 600px;}
+    .amazing-dance-content{width: 100%;height: 500px;}
+    .amazing-dance-content-1{width: 100%;height: 500px;}
+    .main-amazing-box-1{display: flex;flex-direction: column;}
+    .amazing-dance-content h1{margin: 20% 0% 10% 0%; text-align: center;color: white;position: relative; font-size: 32px; font-weight: bolder;}
+    .amazing-dance-content p{text-align: center;color: white;margin: 0% 0% 10% 0%; font-size: 18px;position: relative;}
+    .amazing-dance-content-1 h1{margin: 15% 0% 10% 0%; text-align: center;color: white;position: relative; font-size: 32px; font-weight: bolder;}
+    .amazing-dance-content-1 p{text-align: center;color: white;margin: 0% 0% 10% 0%; font-size: 18px;position: relative;}
+    .btn-dance{color: white; height: 20px;margin: 0% 7% 2% 8%; background-color: #303030;padding: 10px 75px; position: relative; font-size: 18px; border-radius: 5px;}
+    .btn-dance1{color: white; height: 20px;margin: 0% 7% 2% 8%; background-color: #303030;padding: 10px 75px; position: relative; font-size: 18px; border-radius: 5px;}
+
+    /* Our Statment */
+    .our-statement{height: 600px;}
+    .main-box-statement{display: flex; flex-direction: column;}
+    .our-statement h1{font-size: 22px;}
+    .our-statement p{text-align: center;}
+    .our-statement-content h1{font-size: 28px;}
+    .our-statement-content p{font-size: 25px;}
+
+
+    /* Herbert simon */
+    .herbert{background-image: url('img/dancer.png'); mix-blend-mode: multiply; height: 90vh;width: 100%;background-size: cover; background-position: center;text-align: center;}
+    .herbert h1{font-size: 22px; color: white;}
+    .herbert p{font-size: 20px;color: white;padding-top: 46%;}
+
+    /* Subscribe */
+    .subscribe h1{font-size: 22px;}
+    .subscribe p{text-align: center;}
+    .subscribe{height: 40vh; width: 100%; background-color: #e8631c;position: relative;overflow: hidden;}
+    .input-left p{font-size: small;}
+    .main-input{height: 7vh;width: 80%;margin: auto;display: flex;position: relative;}
+    .input-left input{font-size: 14px;}
+    .input-right p{font-size: 8px;}
+
+    /* footer */
+    .footer{height: 165vh;width: 100%;background-color: #303030;}
+    .footer-box h2{color: white;font-size: 22px; margin-top: 15%;}
+    .footer-box p{color: white;font-size: 16px;line-height: 1.5;}
+    .sub-footer{display: flex;width: 90%;margin: auto;padding: 10% 0% 0% 0%; flex-direction: column; text-align: center;}
+
+}   
+
+@media(min-width:576px) and (max-width:768px){
+    .nav-con ul li a::after{display: none;}
+    .responsive{display: flex;justify-content: space-between;background-color: #303030;align-items: center;}
+    .logo1{margin: 20px 0px 30px 0px;height: 40px;width: 100px;}
+    .logo-img1{height: 100%;width: 100%;padding: 0px 12px;}
+    .bar{display: block;}
+    .bar-icone{background-color: #303030;color: white; padding: 12px 15px;border-radius: 50px;}
+    #navigation{width: 100%;display: none;}
+    .sub-navigation{width: 100%;height: 55vh;flex-direction: column;}
+    .logo{margin: 20px 0px 30px 0px;height: 60px;width: 60%;display: none;}
+    .nav-con{margin: 20px 0px 0px 55px;}
+    .nav-con ul li{padding-bottom: 40px;}
+    .nav-con ul{display: flex; flex-direction: column;}
+    .nav-con ul li a{font-size: 18px;}
+    .icone{display: none;}
+
+    /* .title{height: 100vh;} */
+    .title{padding: 70px 0px 0px 0px;}
+    .title p{padding: 1% 0% 5% 5%;}
+    .title a{margin: 0% 0% 0% 5%;}
+
+    /*  dance  */
+    .dance-tour{height: 300vh;width: 100%;}
+    .main-box{display: flex; flex-direction: column; width: 70%;}
+    .box{height: 85vh;width: 100%;margin-top: 25px; background-color: #303030;}
+    .dance-tour h1{font-size: 22px;}
+    .dance-tour p{text-align: center;}
+
+
+
+    /* price page */
+    .price-page{height: 285vh;}
+    .dots{width: 100%;height: 50%;}
+    .dots1{left: 50%;top: 90%; height: 50%;width: 100%;}
+    .price-box{width: 90%;height: 80vh;margin: 5% auto;}
+    .main-price-box{display: flex;flex-direction: column;width: 70%;}
+    .box{width: 90%;margin:5% auto;}
+    .price-page h1{font-size: 22px;}
+    .price-page p{text-align: center;}
+
+    /* Amazing Dance */
+    .Amazing-Dance{height: 2200px;}
+    .pic-1{width: 100%;height: 600px;}
+    .amazing-dance-content{width: 100%;height: 500px;}
+    .amazing-dance-content-1{width: 100%;height: 500px;}
+    .main-amazing-box-1{display: flex;flex-direction: column;}
+    .amazing-dance-content h1{margin: 20% 0% 10% 0%; text-align: center;color: white;position: relative; font-size: 32px; font-weight: bolder;}
+    .amazing-dance-content p{text-align: center;color: white;margin: 0% 0% 10% 0%; font-size: 18px;position: relative;}
+    .amazing-dance-content-1 h1{margin: 15% 0% 10% 0%; text-align: center;color: white;position: relative; font-size: 32px; font-weight: bolder;}
+    .amazing-dance-content-1 p{text-align: center;color: white;margin: 0% 0% 10% 0%; font-size: 18px;position: relative;}
+    .btn-dance{color: white; height: 20px;margin: 0% 7% 2% 8%; background-color: #303030;padding: 10px 75px; position: relative; font-size: 18px; border-radius: 5px;}
+    .btn-dance1{color: white; height: 20px;margin: 0% 7% 2% 8%; background-color: #303030;padding: 10px 75px; position: relative; font-size: 18px; border-radius: 5px;}
+
+    /* Our Statment */
+    .our-statement{height: 600px;}
+    .main-box-statement{display: flex; flex-direction: column;}
+    .our-statement h1{font-size: 22px;}
+    .our-statement p{text-align: center;}
+    .our-statement-content h1{font-size: 28px;}
+    .our-statement-content p{font-size: 25px;}
+
+
+    /* Herbert simon */
+    .herbert{background-image: url('img/dancer.png'); mix-blend-mode: multiply; height: 90vh;width: 100%;background-size: cover; background-position: center;text-align: center;}
+    .herbert h1{font-size: 22px; color: white;}
+    .herbert p{font-size: 20px;color: white;padding-top: 46%;}
+
+    /* Subscribe */
+    .subscribe h1{font-size: 22px;}
+    .subscribe p{text-align: center;}
+    .subscribe{height: 40vh; width: 100%; background-color: #e8631c;position: relative;overflow: hidden;}
+    .input-left p{font-size: small;}
+    .main-input{height: 7vh;width: 80%;margin: auto;display: flex;position: relative;}
+    .input-left input{font-size: 14px;}
+    .input-right p{font-size: 8px;}
+
+    /* footer */
+    .footer{height: 185vh;width: 100%;background-color: #303030;}
+    .footer-box h2{color: white;font-size: 22px; margin-top: 15%;}
+    .footer-box p{color: white;font-size: 16px;line-height: 1.5;}
+    .sub-footer{display: flex;width: 90%;margin: auto;padding: 10% 0% 0% 0%; flex-direction: column; text-align: center;}
+
+}
+
+@media(min-width:768px) and (max-width:992px){
+   /* navigation */
+   #navigation{padding: 10px 0px;}
+   .logo{height: 50px;width: 100px;}
+   .nav-con ul li a{font-size: 16px;}
+
+    /* .title{height: 100vh;} */
+    .title{padding: 70px 0px 0px 0px;}
+    .title p{padding: 1% 0% 5% 5%;}
+    .title a{margin: 0% 0% 0% 5%;}
+
+    /*  dance  */
+    .dance-tour{height: 110vh;}
+    .main-box{display: flex; width: 99%;}
+    .box{height: 70vh;width: 50%;margin-top: 25px; background-color: #303030;}
+    .dance-tour h1{font-size: 22px;}
+    .dance-tour p{text-align: center;}
+    
+    /* price page */
+    .price-page{height: 105vh;}
+    .dots{width: 100%;height: 50%;}
+    .dots1{left: 50%;top: 90%; height: 50%;width: 100%;}
+    .price-box{width: 90%;height: 70vh;margin: 0px 10px 0px 10px;}
+    .main-price-box{display: flex;width: 99%;}
+    .box{width: 90%;margin:5% auto;}
+    .price-page h1{font-size: 22px;}
+    .price-page p{text-align: center;}
+
+    /* Amazing Dance */
+    .dots3{height: 80%;width: 80%; position: absolute; bottom: 65%;right: 0%;}
+    .dots4{height: 100%;width: 100%; position: absolute; top: 100%;right: 10%;}
+    .dots5{height: 100%;width: 100%; position: absolute; top: 100%;right: 2%;}
+    .Amazing-Dance{height: 1200px;}
+    .pic-1{width: 100%;height: 600px;}
+    .amazing-dance-content{width: 100%;height: 500px;}
+    .amazing-dance-content-1{width: 100%;height: 500px;}
+    .main-amazing-box-1{display: flex;}
+    .amazing-dance-content h1{margin: 50% 0% 10% 0%; text-align: center;color: white;position: relative; font-size: 32px; font-weight: bolder;}
+    .amazing-dance-content p{text-align: center;color: white;margin: 0% 0% 10% 0%; font-size: 18px;position: relative;}
+    .amazing-dance-content-1 h1{margin: 50% 0% 10% 0%; text-align: center;color: white;position: relative; font-size: 32px; font-weight: bolder;}
+    .amazing-dance-content-1 p{text-align: center;color: white;margin: 0% 0% 10% 0%; font-size: 18px;position: relative;}
+    .btn-dance{color: white; height: 20px;margin: 0% 7% 2% 8%; background-color: #303030;padding: 10px 75px; position: relative; font-size: 18px; border-radius: 5px;}
+    .btn-dance1{color: white; height: 20px;margin: 0% 7% 2% 8%; background-color: #303030;padding: 10px 75px; position: relative; font-size: 18px; border-radius: 5px;}
+
+    /* Our Statment */
+    .our-statement{height: 400px;}
+    .main-box-statement{display: flex; }
+    .our-statement h1{font-size: 22px;}
+    .our-statement p{text-align: center;}
+    .our-statement-content h1{font-size: 28px;}
+    .our-statement-content p{font-size: 25px;}
+
+
+    /* Herbert simon */
+    .herbert{background-image: url('img/dancer.png'); mix-blend-mode: multiply; height: 90vh;width: 100%;background-size: cover; background-position: center;text-align: center;}
+    .herbert h1{font-size: 22px; color: white;}
+    .herbert p{font-size: 20px;color: white;padding-top: 26%;}
+
+    /* Subscribe */
+    .subscribe h1{font-size: 22px;}
+    .subscribe p{text-align: center;}
+    .subscribe{height: 40vh; width: 100%; background-color: #e8631c;position: relative;overflow: hidden;}
+    .input-left p{font-size: small;}
+    .main-input{height: 7vh;width: 80%;margin: auto;display: flex;position: relative;}
+    .input-left input{font-size: 14px;}
+    .input-right p{font-size: 8px;}
+
+    /* footer */
+    .footer{height: 55vh;width: 100%;background-color: #303030;}
+    .footer-box h2{color: white;font-size: 22px; }
+    .footer-box p{color: white;font-size: 16px;line-height: 1.5;}
+    .sub-footer{display: flex;width: 99%; text-align: center;}
+
+}

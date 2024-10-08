@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav-con ul li a::after{
+    content: '';
+    position: absolute;
+    left: 0%;top: 100%;
+    width: 0px;
+    height: 2px;
+    transition: all 0.5s;
+    background-color: white;
+}
+.nav-con ul li a:hover::after{
+    width: 62px;
+}
+.responsive{display: none;}
+#navigation{background:#303030;}
+.sub-navigation{display: flex; justify-content: space-between;color: white;align-items: center; width: 90%; margin: auto;}
+.logo{height: 80px;width: 135px;}
+.logo-img{height: 100%; width: 100%;}
+.nav-con ul{display: flex;}
+.nav-con ul li{padding-right: 45px;position: relative;}   
+.nav-con ul li a{color: white; font-size: 22px; font-weight: 400;width: 100%;}
+.icone i{font-size: 22px;}
+
+/* title */
+.title{background-image: url('img/Bg1.png');width: 100%;height: 90vh;background-position: center;background-size: cover;background-repeat: no-repeat;}
+.title h1{padding: 20% 0% 0% 5%; font-size: 38px; font-weight: 800; color: white;}
+.title p{padding: 1% 0% 2% 5%;color: white;line-height: 1.4;}
+.title a{margin: 0% 0% 0% 5%;color: white; height: 20px;background-color: #e8631c;padding: 10px 15px;}
+
+/* dance */
+.dance-tour{height: 100vh;width: 100%;background-color: #e8631c;overflow: hidden;}
+/* .dance-tour-img{height: 10px;} */
+.dance-image{height: 70%; width: 100%; top: 101%; position: absolute;}
+.dance-tour h1{color: white; font-size: 32px; text-align: center; position: relative; padding-top: 5%;}
+.dance-tour p{color: white; text-align: center; margin: 1% 0% 2% 0%;position: relative;}
+.box{height: 65vh;width: 23%;background-color: #303030;}
+.box-head{height: 70%;width: 100%;background-image: url('img/blog1.png');background-position: center;background-size: cover;background-repeat: no-repeat; position: relative;}
+.box-head1{height: 70%;width: 100%;background-image: url('img/blog2.png');background-position: center;background-size: cover;background-repeat: no-repeat; position: relative;}
+.box-head2{height: 70%;width: 100%;background-image: url('img/blog3.png');background-position: center;background-size: cover;background-repeat: no-repeat; position: relative;}
+.main-box{display: flex; width: 90%;justify-content: space-between; margin:auto;}
+.box-body{text-align: center; margin-top: 7%;}
+.box-body h5{font-size: 22px; color: white;}
+
+
+/* PRICING */
+.dots{position: absolute; top: 0%; height: 90%;}
+.dots1{position: absolute; top: 50%; left: 70%; height: 90%;width: 80%;}
+.price-page{height: 90vh;width: 100%;background-color: #303030; position: relative; overflow: hidden;}
+.price-page h1{color: white; font-size: 32px; text-align: center; padding-top: 5%;}
+.price-page p{color: white; text-align: center; margin: 1% 0% 2% 0%;}
+.price-box{height: 55vh;width: 23%;background-color: #e8631c; text-align: center;padding: 50px 0px; position: relative;z-index: 1;}
+.price-box h4{font-size: 30px; color: white;margin: 7%;}
+.price-box p{margin: 15px 0px 35px 0px;}
+.price-box a{color: white; height: 20px;background-color: #303030;padding: 10px 75px; border-radius: 5px;}
+.main-price-box{display: flex;justify-content: space-between;width: 90%;margin: auto;}
+
+
+/* amazing dance */
+.Amazing-Dance{height: 1634px; width: 100%; background-color: #e8631c;overflow: hidden;}
+.pic-1{height: 817px; width: 50%;background-color: #303030;}
+.amazing-dance-img{height: 100%; width: 100%;}
+.main-amazing-box-1{display: flex; margin: auto;width: 100%;}
+.dots3{height: 80%;width: 80%; position: absolute; bottom: 65%;right: 0%;}
+.dots4{height: 80%;width: 80%; position: absolute; top: 40%;right: 0%;}
+.dots5{height: 100%;width: 100%; position: absolute; top: 1%;right: 2%;}
+.amazing-dance-content{text-align: center;height: 817px; width: 50%;position: relative;overflow: hidden;}
+.amazing-dance-content h1{margin: 40% 0% 2% 20%; text-align: start;color: white;position: relative; font-size: 52px; font-weight: bolder;}
+.amazing-dance-content p{text-align: start;color: white;margin: 0% 0% 5% 20%; font-size: 22px;position: relative;}
+.amazing-dance-content-1{text-align: center;height: 817px; width: 50%;position: relative;overflow: hidden;}
+.amazing-dance-content-1 h1{margin: 40% 0% 2% 20%; text-align: start;color: white;position: relative; font-size: 52px; font-weight: bolder;}
+.amazing-dance-content-1 p{text-align: start;color: white;margin: 0% 0% 5% 20%; font-size: 22px;position: relative;}
+.btn-dance{color: white; height: 20px;margin: 0% 18% 2% 0%; background-color: #303030;padding: 10px 75px; position: relative; font-size: 28px; border-radius: 5px;}
+.btn-dance1{color: white; height: 20px;margin: 0% 18% 2% 0%; background-color: #303030;padding: 10px 75px; position: relative; font-size: 28px; border-radius: 5px;}
+
+/* our statement */
+.our-statement{height: 80vh; width: 100%; background-color: #303030;}
+.our-statement h1{color: white; font-size: 32px; text-align: center; padding-top: 5%;}
+.our-statement p{color: white; text-align: center; margin: 1% 0% 10% 0%;}
+.our-statement-content h1{font-size: 42px;}
+.our-statement-content p{font-size: 35px;}
+.main-box-statement{display: flex; justify-content: space-around;}
+
+/* Herbert simon */
+.herbert{background-image: url('img/dancer.png'); mix-blend-mode: multiply; height: 140vh;width: 100%;background-size: cover; background-position: center;text-align: center;}
+.herbert h1{font-size: 42px; color: white;}
+.herbert p{font-size: 28px;color: white;padding-top: 26%;}
+
+/* SEBSCRIBE */
+.subscribe{height: 60vh; width: 100%; background-color: #e8631c;position: relative;overflow: hidden;}
+.dots-left{position: absolute; height: 60vh;}
+.dots-right{position: absolute; height: 60vh;top: 0%;right: 0%;}
+.subscribe h1{color: white; font-size: 32px; text-align: center; padding-top: 5%;position: relative;}
+.subscribe p{color: white; text-align: center; margin: 1% 0% 5% 0%;position: relative;} 
+.main-input{height: 7vh;width: 60%;margin: auto;display: flex; position: relative;z-index: 2;}
+.input-left{width: 80%;background-color: white;height: 100%;}
+.input-left input{height: 100%;width: 100%;padding-left: 20px;font-size: 18px;border: none;outline: none;border-radius: 5px;}
+.input-left p{margin: 0%;padding: 15px 560px 15px 0px;color: #303030;}
+.input-right{width: 20%;background-color: #303030;height: 100%;}
+.input-right p{margin: 0%;padding: 15px 0px;}
+
+/* footer */
+.footer{height: 60vh;width: 100%;background-color: #303030;}
+.footer-box h2{color: white;font-size: 32px; margin-bottom: 5%;}
+.footer-box p{color: white;font-size: 18px;line-height: 1.5;}
+.sub-footer{display: flex;width: 90%;margin: auto;padding: 10% 0% 0% 0%; justify-content: space-between;}
+.foot-icone{background-color: white;padding: 12px 13px;font-size: 18px;margin: 10px 7px 0px 0px; border-radius: 50px;}
+.foot-icone:hover{color: blue;}
+/* .hexa{background-color: white;width: 10%;} */
