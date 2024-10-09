@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css2.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+   
+    <header id="navigation">
+        <i class="bi bi-list menu"></i>
+        <div class="sub-nav">
+            <div class="logo">
+                <img src="img/logo.png" alt="" class="img-fluid">
+                <p>phoenix</p>
+            </div>
+            <div class="search">
+                <form action="">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search.." class="form-control w-100">
+                </form>
+            </div>
+            <div class="icones">
+                <i class="bi bi-brightness-high-fill light"></i>
+                <i class="bi bi-bell sub-icone-1"></i>
+                <div class="wrapper">
+                    <div class="sub-wrapper">
+                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px;">
+                            <h6 class="" style="font-size: 18px; font-weight: bolder; margin-bottom: 0%;">Notification</h6>
+                            <p style="font-size: 14px; padding-top: 0px; margin-bottom: 0%;"><a href="" class="nav-link p-0">Mark all as read</a></p>
+                        </div>
+                        <hr style="margin: 2px;">
+                        <div style="display: flex;">
+                            <div style="margin: 10px 5px 10px 20px;">
+                                <img src="img/alok.webp" alt="" class="rounded-pill">
+                            </div>
+                            <div style="margin: 12px 0px 10px 5px;">
+                                <h6 style="font-size: 14px; font-weight: bolder; margin-bottom: 0%;">
+                                    Jessie Samson
+                                </h6>
+                                <p style="font-size: 12px; font-weight: 500; margin-bottom: 0%;">
+                                    Mentioned you in a comment <span class="text-primary">10m</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="display: flex; font-size: 12px;margin: 0px 5px 0px 70px;">
+                            <i class="bi bi-clock-fill" style="font-size: 12px;"></i>
+                            <p style="font-weight: bolder; margin-bottom: 0%;">10AM <span class="text-primary">August 7,2021</span></p>
+                            
+                        </div>
+                        <hr style="margin-top: 10px;">
+                        <div style="display: flex;">
+                            <div style="margin: 10px 5px 10px 20px;">
+                                <img src="img/round-image-2.webp" alt="" class="rounded-pill">
+                            </div>
+                            <div style="margin: 12px 0px 10px 5px;">
+                                <h6 style="font-size: 14px; font-weight: bolder; margin-bottom: 0%;">
+                                    Jane Foster
+                                </h6>
+                                <p style="font-size: 12px; font-weight: 500; margin-bottom: 0%;">
+                                    Created an event. <span class="text-primary">20m</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="display: flex; font-size: 12px;margin: 0px 5px 0px 70px;">
+                            <i class="bi bi-clock-fill" style="font-size: 12px;"></i>
+                            <p style="font-weight: bolder; margin-bottom: 0%;">10:20AM <span class="text-primary">August 7,2021</span></p>
+                            
+                        </div>
+                        <hr style="margin-top: 10px;">
+                        <div style="display: flex;">
+                            <div style="margin: 10px 5px 10px 20px;">
+                                <img src="img/round-image-2.webp" alt="" class="rounded-pill">
+                            </div>
+                            <div style="margin: 12px 0px 10px 5px;">
+                                <h6 style="font-size: 14px; font-weight: bolder; margin-bottom: 0%;">
+                                    Jessie Samson
+                                </h6>
+                                <p style="font-size: 12px; font-weight: 500; margin-bottom: 0%;">
+                                    Liked your comment. <span class="text-primary">1h</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="display: flex; font-size: 12px;margin: 0px 5px 0px 70px;">
+                            <i class="bi bi-clock-fill" style="font-size: 12px; margin-right: 2px;"></i>
+                            <p style="font-weight: bolder; margin-bottom: 0%;">9:30AM <span class="text-primary">August 7,2021</span></p>
+                            
+                        </div>
+                        <hr style="margin-top: 10px;">
+                        <div style="display: flex;">
+                            <div style="margin: 10px 5px 10px 20px;">
+                                <img src="img/57.971121ad428013d5bb70.webp" alt="" class="rounded-pill">
+                            </div>
+                            <div style="margin: 12px 0px 10px 5px;">
+                                <h6 style="font-size: 14px; font-weight: bolder; margin-bottom: 0%;">
+                                    Kiera Anderson
+                                </h6>
+                                <p style="font-size: 12px; font-weight: 500; margin-bottom: 0%;">
+                                    Mentioned you in a comment <span class="text-primary">10m</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="display: flex; font-size: 12px;margin: 0px 5px 0px 70px;">
+                            <i class="bi bi-clock-fill" style="font-size: 12px;"></i>
+                            <p style="font-weight: bolder; margin-bottom: 0%;">10AM <span class="text-primary">August 7,2021</span></p>
+                            
+                        </div>
+                        <hr style="margin-top: 10px;">
+                        <div style="display: flex;">
+                            <div style="margin: 10px 5px 10px 20px;">
+                                <img src="img/round-image.webp" alt="" class="rounded-pill">
+                            </div>
+                            <div style="margin: 12px 0px 10px 5px;">
+                                <h6 style="font-size: 14px; font-weight: bolder; margin-bottom: 0%;">
+                                    Herman Carter
+                                </h6>
+                                <p style="font-size: 12px; font-weight: 500; margin-bottom: 0%;">
+                                    Tagged you in a <span class="text-primary">10m</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="display: flex; font-size: 12px;margin: 0px 5px 0px 70px;">
+                            <i class="bi bi-clock-fill" style="font-size: 12px;"></i>
+                            <p style="font-weight: bolder; margin-bottom: 0%;">10AM <span class="text-primary">August 7,2021</span></p>
+                            
+                        </div>
+                        <hr style="margin-top: 10px;">
+                    </div>
+                </div>
+
+
+                
+                <i class="bi bi-grid-3x3-gap-fill sub-icone-2"></i>
+                <div class="sub-menu-wrap-1">
+                    <div class="sub-menu-1">
+                        <div class="main-model-icone">
+                            <div class="behance">
+                                <img src="img/behance..webp" alt="">
+                                <p>Behance</p>
+                            </div>
+                            <div class="behance">
+                                <img src="img/google-cloud..webp" alt="">
+                                <p>cloud</p>
+                            </div>
+                            <div class="behance">
+                                <img src="img/slack..webp" alt="">
+                                <p>slack</p>
+                            </div>
+                        </div>
+                        <div class="main-model-icone">
+                            <div class="behance">
+                                <img src="img/gitlab..webp" alt="">
+                                <p>gitlab</p>
+                            </div>
+                            <div class="behance">
+                                <img src="img/bitbucket..webp" alt="">
+                                <p>bitbucket</p>
+                            </div>
+                            <div class="behance">
+                                <img src="img/google.webp" alt="">
+                                <p>slack</p>
+                            </div>
+                        </div>
+                        <div class="main-model-icone">
+                            <div class="behance">
+                                <img src="img/trello..webp" alt="">
+                                <p>trello</p>
+                            </div>
+                            <div class="behance">
+                                <img src="img/figma..webp" alt="">
+                                <p>figma</p>
+                            </div>
+                            <div class="behance">
+                                <img src="img/twitter..webp" alt="">
+                                <p>twitter</p>
+                            </div>
+                        </div>
+                        <div class="main-model-icone">
+                            <div class="behance">
+                                <img src="img/pinterest..webp" alt="">
+                                <p>pinterest</p>
+                            </div>
+                            <div class="behance">
+                                <img src="img/google.webp" alt="">
+                                <p>Linkdin</p>
+                            </div>
+                            <div class="behance">
+                                <img src="img/Maps.webp" alt="">
+                                <p>Maps</p>
+                            </div>
+                        </div>
+                        <div class="main-model-icone">
+                            <div class="behance">
+                                <img src="img/photos..webp" alt="">
+                                <p>photos</p>
+                            </div>
+                            <div class="behance" style="margin-right: 25px;">
+                                <img src="img/spotify..webp" alt="">
+                                <p>spotify</p>
+                            </div>
+                            <div class="behance">
+                                <!-- <img src="" alt=""> -->
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+                <img src="img/57.971121ad428013d5bb70.webp" class="iconesImage" alt="">
+                <div class="sub-menu-wrap">
+                    <div class="sub-menu">
+                        <img src="img/57.971121ad428013d5bb70.webp" alt="" class="iconesImage-2">
+                        <p class="name">Jerry Seinfield</p>
+                        <form action="" class="modal-input">
+                            <input type="text" placeholder="Update your status" class="form-control" name="" id="">
+                        </form>
+                        <ul class="p-0 main-modal-icone mb-0">
+                            <li class="modal-icone"><i class="bi bi-person modal-sub-icone" style="font-size: 14px;"></i><span>Profile</span></li>
+                            <li class="modal-icone"><i class="bi bi-pie-chart modal-sub-icone" style="font-size: 14px;"></i><span>Dashboard</span></li>
+                            <li class="modal-icone"><i class="bi bi-lock modal-sub-icone" style="font-size: 14px;"></i><span>Post & Activity</span></li>
+                            <li class="modal-icone"><i class="bi bi-gear modal-sub-icone" style="font-size: 14px;"></i><span>Setting & Privacy</span></li>
+                            <li class="modal-icone"><i class="bi bi-slash-circle modal-sub-icone" style="font-size: 14px;"></i><span>Help Center</span></li>
+                        </ul>
+                        <hr class="m-0">
+                        <ul class="p-0 mt-3">
+                            <li class="modal-icone"><i class="bi bi-person modal-sub-icone" style="font-size: 14px;"></i><span>Add Another Account</span></li>
+                        </ul>
+                        <hr class="m-0">
+                        <a href="#" class="model-btn"><i class="bi bi-box-arrow-right me-2"></i>Sign out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header id="side-navigation">
+        <nav>
+            <ul class="mb-1 mt-4">
+                <li>
+                <div class="d-flex sidenav-content dropdown pb-3">
+                    <i class="bi bi-caret-right-fill pe-1 hexa" id="hexa"></i>
+                    <i class="bi bi-pie-chart pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Home</a>
+                </div>
+                    <ul class="sub-sidenav-content">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">E commerce</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Project Managment</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">CRM</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Social Feed</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <p class="apps">APPS</p>
+        <!-- e commers -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-commerece pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-cart pe-1"></i>
+                    <a href="#" class="nav-link p-0 text-dark">E Commerece</a>
+                </div>
+                    <ul class="sub-sidenav-content-commerece">
+                        <li>
+                        <div class="d-flex sidenav-content-admine pb-3">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Admin</a>
+                        </div>
+                            <ul class="sub-sidenav-content-admine">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Add product</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Products</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Customers</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Customer Details</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Orders</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Orders details</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Refund</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+
+                    <ul class="sub-sidenav-content-commerece">
+                        <li>
+                        <div class="d-flex sidenav-content-custumer pb-3">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Custumer</a>
+                        </div>
+                            <ul class="sub-sidenav-content-custumer">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Add product</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Products</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Customers</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Customer Details</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Orders</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Orders details</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Refund</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+        </nav>
+        <!-- CRM -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-crm pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-telephone pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">CRM</a>
+                </div>
+                    <ul class="sub-sidenav-content-crm">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Annaltics</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Deals <span class="new">New</span></a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Deal Details</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Leads</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Lead detailes</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Reports</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Report detailes</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Add content</a></li>
+                    </ul>
+
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- project -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-project pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-clipboard2 pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Project managent</a>
+                </div>
+                    <ul class="sub-sidenav-content-project">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Create new</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Project list view</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Project card view</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Project board view</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Todo list</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Project details</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- chat -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-chat-left pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Chat</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- email -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-email pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-envelope pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Email</a>
+                </div>
+                    <ul class="sub-sidenav-content-email">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Inbox</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Email details</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Compose</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- event -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-event pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-bookmark pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Event</a>
+                </div>
+                    <ul class="sub-sidenav-content-event">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Create an event</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Event details</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- kanban -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-kanban pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-trello pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Kanban<span class="new ms-1">New</span></a>
+                </div>
+                    <ul class="sub-sidenav-content-kanban">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Kanban</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Boards</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Creat Board</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- social -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-social pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-share pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Social</a>
+                </div>
+                    <ul class="sub-sidenav-content-social">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Profile</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- calender -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-chat-left pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Calender<span class="new ms-1">New</span></a>
+                </li>
+            </ul>
+        </nav>
+
+        <p class="apps">PAGES</p>
+        <!-- started -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-compass pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Started</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Faq -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-faq pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-slash-circle pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Faq</a>
+                </div>
+                    <ul class="sub-sidenav-content-faq">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Faq accodion</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Faq tab<span class="new ms-1">New</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- landing -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-landing pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-globe pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Landing</a>
+                </div>
+                    <ul class="sub-sidenav-content-landing">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Defualt</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Alternate<span class="new ms-1">New</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- pricing -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-pricing pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-tag pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Pricing</a>
+                </div>
+                    <ul class="sub-sidenav-content-pricing">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Pricing column</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Pricing grid<span class="new ms-1">New</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- notification -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-bell pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Notification</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- member -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-people-fill pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Members</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- timeline -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-people-alarm pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Timeline <span class="new ms-1">New</span></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- errors -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-errors pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-exclamation-triangle pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Errors</a>
+                </div>
+                    <ul class="sub-sidenav-content-errors">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">403</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">404</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">500</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- lock -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-authentic pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-lock pe-1"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Authentication</a>
+                </div>
+                    <ul class="sub-sidenav-content-authentic">
+                        <li>
+                        <div class="d-flex sidenav-content-simple pb-3">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Simple</a>
+                        </div>
+                            <ul class="sub-sidenav-content-simple">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign in</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign up</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign out</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Forget password</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Reset password</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">2FA</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="sub-sidenav-content-authentic">
+                        <li>
+                        <div class="d-flex sidenav-content-split pb-3">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Split</a>
+                        </div>
+                            <ul class="sub-sidenav-content-split">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign in</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign up</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign out</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Forget password</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Reset password</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">2FA</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+
+                    <ul class="sub-sidenav-content-authentic">
+                        <li>
+                        <div class="d-flex sidenav-content-card pb-3">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">card</a>
+                        </div>
+                            <ul class="sub-sidenav-content-card">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign in</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign up</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sign out</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Forget password</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Reset password</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">2FA</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- layout -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-layout pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-grid-1x2 pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Layout</a>
+                </div>
+                    <ul class="sub-sidenav-content-layout">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Virtical sidenav</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Dark mode</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sidenav collapse</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Darknav</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Topnav slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Navbar top slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Navbar top</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Horizontal slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Horizontal slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Combo nav</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Combo nav slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Dual nav</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <p class="apps">MODUALES</p>
+        <!-- FORM -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-form pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-file-earmark-text pe-1"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Form</a>
+                </div>
+                    <ul class="sub-sidenav-content-form">
+                        <li>
+                        <div class="d-flex sidenav-content-basic pb-1">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Basic</a>
+                        </div>
+                            <ul class="sub-sidenav-content-basic">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Add product</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Products</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Customers</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Customer Details</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Orders</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Orders details</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Refund</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+
+                    <ul class="sub-sidenav-content-form">
+                        <li>
+                        <div class="d-flex sidenav-content-advance pb-1">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Advance</a>
+                        </div>
+                            <ul class="sub-sidenav-content-advance">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Add product</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Products</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Customers</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Customer Details</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Orders</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Orders details</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Refund</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+                    <ul class="sub-sidenav-content-form">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Validation</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Wizard<span class="new ms-1">New</span></a></li>
+                    </ul>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- icone -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-i-cones pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-grid pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Icones</a>
+                </div>
+                    <ul class="sub-sidenav-content-i-cones">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Feather</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Font awesome</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Unicons</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- table -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-table pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-columns pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Tables</a>
+                </div>
+                    <ul class="sub-sidenav-content-table">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Basic table</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Advance table</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- charts -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chart pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-bar-chart pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Charts</a>
+                </div>
+                    <ul class="sub-sidenav-content-chart">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">E charts</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Gantt charts</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- component -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-component pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-file-box-seam pe-1"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Components</a>
+                </div>
+                <ul class="sub-sidenav-content-component">
+                    <li class="pb-2"><a href="" class="text-decoration-none text-dark">Annaltics</a></li>
+                    <li class="pb-2"><a href="" class="text-decoration-none text-dark">Deals</a></li>
+                    <li class="pb-2"><a href="" class="text-decoration-none text-dark">Deal Details</a></li>
+                    <li class="pb-2"><a href="" class="text-decoration-none text-dark">Leads</a></li>
+                    <li class="pb-2"><a href="" class="text-decoration-none text-dark">Lead detailes</a></li>
+                    <li class="pb-2"><a href="" class="text-decoration-none text-dark">Celender<span class="new">New</span></a></li>
+                    <li class="pb-2"><a href="" class="text-decoration-none text-dark">Card</a></li>
+                </ul>
+
+                    <ul class="sub-sidenav-content-component">
+                        <li>
+                        <div class="d-flex sidenav-content-carousel pb-1">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Carousel</a>
+                        </div>
+                            <ul class="sub-sidenav-content-carousel">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Bootstrap</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Swiper</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+
+                    <ul class="sub-sidenav-content-component">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Annaltics</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Deals</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Deal Details</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Leads</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Lead detailes</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Reports</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Draggable<span class="new">New</span></a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Models</a></li>
+                    </ul>
+
+
+
+                    <ul class="sub-sidenav-content-component">
+                        <li>
+                        <div class="d-flex sidenav-content-nav-tab pb-1">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Nav-tab</a>
+                        </div>
+                            <ul class="sub-sidenav-content-nav-tab">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Navs</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Navbars</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Tabs</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+                    <ul class="sub-sidenav-content-component">
+                        <li>
+                        <div class="d-flex sidenav-content-picture pb-1">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Picture</a>
+                        </div>
+                            <ul class="sub-sidenav-content-picture">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Lightbox</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+                    <ul class="sub-sidenav-content-component">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Validation</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Wizard</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Validation</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Wizard</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Validation</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Wizard</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Wizard</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Validation</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- untilies -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-untilies pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-wrench-adjustable pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Untilies</a>
+                </div>
+                    <ul class="sub-sidenav-content-untilies">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Virtical sidenav</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Dark mode</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Sidenav collapse</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Darknav</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Topnav slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Navbar top slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Navbar top</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Horizontal slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Horizontal slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Combo nav</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Combo nav slim</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Dual nav</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- widgets -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-hdd-stack pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">widgets<span class="new ms-1">New</span></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- multi level -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-level pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-stack pe-1"></i>
+                    <a href="#" class="nav-link p-0 text-dark">level</a>
+                </div>
+                    <ul class="sub-sidenav-content-level">
+                        <li>
+                        <div class="d-flex sidenav-content-two pb-1">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Level two</a>
+                        </div>
+                            <ul class="sub-sidenav-content-two">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Itam 1</a></li>
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Itam 2</a></li>
+                            </ul>
+        
+        
+                        </li>
+                    </ul>
+
+                    <ul class="sub-sidenav-content-level">
+                        <li>
+                        <div class="d-flex sidenav-content-three pb-1">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Level three</a>
+                        </div>
+                            <ul class="sub-sidenav-content-three">
+                                <li class="pb-2"><a href="" class="text-decoration-none text-dark">Itam 3</a></li>
+
+                                <ul class="sub-sidenav-content-four p-0">
+                                    <li>
+                                    <div class="d-flex sidenav-content-itam-four pb-1">
+                                        <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                                        <a href="#" class="nav-link p-0 text-dark">Itam 4</a>
+                                    </div>
+                                        <ul class="sub-sidenav-content-itam-four">
+                                            <li class="pb-2"><a href="" class="text-decoration-none text-dark">Itam 5</a></li>
+                                            <li class="pb-2"><a href="" class="text-decoration-none text-dark">Itam 6</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
+                
+                    <ul class="sub-sidenav-content-level">
+                        <li>
+                        <div class="d-flex sidenav-content-four pb-1">
+                            <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                            <a href="#" class="nav-link p-0 text-dark">Level four</a>
+                        </div>
+                        <ul class="sub-sidenav-content-four">
+                            <li class="pb-2"><a href="" class="text-decoration-none text-dark">Itam 6</a></li>
+
+                            <ul class="sub-sidenav-content-four p-0">
+                                <li>
+                                <div class="d-flex sidenav-content-itam-seven pb-1">
+                                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                                    <a href="#" class="nav-link p-0 text-dark">Itam 7</a>
+                                </div>
+                                    <ul class="sub-sidenav-content-itam-seven">
+                                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Itam 8</a></li>
+                                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Itam 9</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+        
+        
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+        </nav>
+
+        <p class="apps">DOCUMANTATION</p>
+
+        <!-- STARTED -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-filter-circle pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Getting started</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- customization -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-customizaion pb-1">
+                    <i class="bi bi-caret-right-fill pe-1 hexa"></i>
+                    <i class="bi bi-gear pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Customization</a>
+                </div>
+                    <ul class="sub-sidenav-content-customizaion">
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Confrigation</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Styling</a></li>
+                        <li class="pb-2"><a href="" class="text-decoration-none text-dark">Dark mode</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- figma -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-columns-gap pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Design File</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- changelog -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-git pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Changelog</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Migration -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-fast-forward pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Migration</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- showcase -->
+        <nav>
+            <ul class="mb-1">
+                <li>
+                <div class="d-flex sidenav-content-chat pb-1">
+                    <i class="bi bi-display pe-2"></i>
+                    <a href="#" class="nav-link p-0 text-dark">Showcase</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header> 
+    
+    <section class="dashboard">
+        <div class="container-fluid">
+            <div class="row dashboard-head">
+                <div class="col-9">
+                    <h1>Ecommerce Dashboard</h1>
+                    <p>Here’s what’s going on at your business right now</p>
+                </div>
+            </div>
+            <hr class="line-1">
+            <div class="row">
+                <div class="main-star col-9">
+                    <div class="star">
+                        <div>
+                            <img src="img/1-removebg-preview.png" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="m-0">57 new orders</h6>
+                            <p>Awating processing</p>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <div>
+                            <img src="img/3-removebg-preview.png" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="m-0">5 orders</h6>
+                            <p>On hold</p>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <div>
+                            <img src="img/2-removebg-preview.png" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="m-0">15 Products</h6>
+                            <p>Out of stock</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row main-total">
+                <div class="col-12 col-sm-5 total">
+                    <h6>Total sells</h6>
+                    <p>Payment received across all channels</p>
+                </div>
+                <div class="col-12 col-sm-4 sells-input">
+                    <form action="" class="sells-input">
+                        <input type="text" placeholder="Mar 1 - 31,2023" class="form-control sells-input" style="font-size: 13px;border-radius: 5px;" name="" id="">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-9 first-chart p-0">
+                    <div id="curve_chart" style="width: 100%; height: 500px; box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);"></div>
+                </div>
+            </div>
+            <div class="four-charts">
+                <div class="row two-charts g-0">
+                    <div class="col-12 col-sm-5 main-first-chart">
+                        <div class="first-chart-1">
+                            <div class="sub-mychart">
+                                <h6 class="order-total m-0">Total orders <span class="persentage">-0.6%</span></h6>
+                                <p class="days m-0">Last 7 days</p>
+                                <canvas id="myChart" style="width:100%;" class="one-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-5 main-first-chart-2">
+                        <div class="second-chart">
+                            <h6 class="order-total-1 m-0">Total orders <span class="persentage">-0.6%</span></h6>
+                            <p class="days-1 m-0">Last 7 days</p>
+                            <canvas id="MeraChart" style="width:100%;" class="one-chart2"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="row two-charts g-0">
+                    <div class="col-12 col-sm-5 main-first-chart">
+                        <div class="first-chart-1">
+                            <div class="sub-mychart">
+                                <h6 class="order-total m-0">Total orders <span class="persentage">-0.6%</span></h6>
+                                <p class="days m-0">Last 7 days</p>
+                                <canvas id="matChart" style="width:100%;" class="one-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-5 main-first-chart-2">
+                        <div class="second-chart-2">
+                            <h6 class="order-total-1 m-0">Total orders <span class="persentage">-0.6%</span></h6>
+                            <p class="days-1 m-0">Last 7 days</p>
+                            <canvas id="SabkaChart" style="width:100%;" class="one-chart2"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row main-2">
+                <div class="latest-review">
+                    <div class="col-12 col-sm-4 total-1">
+                        <h6>Latest reviews</h6>
+                        <p>Payment received across all channels</p>
+                    </div>
+                    <div class="col-12 col-sm-5 sells-input-1">
+                        <form action="" class="main-search">
+                            <input type="text" placeholder="Search" class="form-control sells-input-1 ms-0" style="font-size: 13px;border-radius: 5px; margin-right: 20%;" name="" id="">
+                        </form>
+                        <a href="#" class="allProduct">All product</a>
+                    </div>
+                </div>
+                <div class="scrollbar" style="width: 82%; overflow-y: hidden; height: 550px;">
+                    <table class="main-table table-fixed" style="width: 1600px; overflow: scroll;">
+                        <tr style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;" class="p-5">
+                            <th class="p-2"><input type="checkbox" name="" id=""></th>
+                            <th></th>
+                            <th>PRODUCT</th>
+                            <th>CUSTOMER</th>
+                            <th>RATING</th>
+                            <th>REVIEW</th>
+                            <th>STATUS</th>
+                            <th>TIME</th>
+                        </tr>
+                        <tr style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;">
+                            <td class="p-2"><input type="checkbox" name="" id=""></td>
+                            <td class="p-2"><img src="img/download.png" alt="" class="table-image"></td>
+                            <td class="p-2"><a class="fw-semi-bold nav-link p-0" href="/apps/e-commerce/customer/product-details">Fitbit Sense Advanced Smartwatch with Tools fo...</a></td>
+                            <td class="p-2">
+                                <div class="avtar">
+                                    <span class="r-name">
+                                        R
+                                    </span>
+                                    <h6 class="mb-0 ms-3 text-900">Richard Dawkins</h6>
+                                </div>
+                            </td>
+                            <td class="p-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                
+                            </td>
+                            <td class="p-2">
+                                <p class="fs--1 fw-semi-bold text-1000 mb-0 line-clamp-3" style="font-size: 14px;">This Fitbit is fantastic! I was trying to be in better shape <br> and needed some motivation, so I decided to treat myself <br> brto a new Fitbit.</p>
+                            </td>
+                            <td class="p-2">
+                                <span class="approved">APPROVED <i class="bi bi-check fs-4 p-0"></i></span>
+                            </td>
+                            <td class="p-2">
+                                <p>Just now</p>
+                            </td>
+                        </tr>
+                        <tr style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;">
+                            <td class="p-2"><input type="checkbox" name="" id=""></td>
+                            <td class="p-2"><img src="img/download1.png" alt="" class="table-image"></td>
+                            <td class="p-2"><a class="fw-semi-bold nav-link p-0" href="/apps/e-commerce/customer/product-details">Fitbit Sense Advanced Smartwatch with Tools fo...</a></td>
+                            <td class="p-2">
+                                <div class="avtar">
+                                    <img src="img/round-image.webp" alt="" class="rounded-pill">
+                                    <h6 class="mb-0 ms-3 text-900">Richard Dawkins</h6>
+                                </div>
+                            </td>
+                            <td class="p-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                
+                            </td>
+                            <td class="p-2">
+                                <p class="fs--1 fw-semi-bold text-1000 mb-0 line-clamp-3" style="font-size: 14px;">This Fitbit is fantastic! I was trying to be in better shape <br> and needed some motivation, so I decided to treat myself <br> brto a new Fitbit.</p>
+                            </td>
+                            <td class="p-2">
+                                <span class="approved">APPROVED <i class="bi bi-check fs-4"></i></span>
+                            </td>
+                            <td class="p-2">
+                                <p>Just now</p>
+                            </td>
+                        </tr>
+                        <tr style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;">
+                            <td class="p-2"><input type="checkbox" name="" id=""></td>
+                            <td class="p-2"><img src="img/download2.png" alt="" class="table-image"></td>
+                            <td class="p-2"><a class="fw-semi-bold nav-link p-0" href="/apps/e-commerce/customer/product-details">Fitbit Sense Advanced Smartwatch with Tools fo...</a></td>
+                            <td class="p-2">
+                                <div class="avtar">
+                                    <img src="img/round-image-1.webp" alt="" class="rounded-pill">
+                                    <h6 class="mb-0 ms-3 text-900">Richard Dawkins</h6>
+                                </div>
+                            </td>
+                            <td class="p-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                
+                            </td>
+                            <td class="p-2">
+                                <p class="fs--1 fw-semi-bold text-1000 mb-0 line-clamp-3" style="font-size: 14px;">This Fitbit is fantastic! I was trying to be in better shape <br> and needed some motivation, so I decided to treat myself <br> brto a new Fitbit.</p>
+                            </td>
+                            <td class="p-2">
+                                <span class="pending">PENDING <i class="bi bi-clock fs-6 px-1"></i></span>
+                            </td>
+                            <td class="p-2">
+                                <p>Just now</p>
+                            </td>
+                        </tr>
+                        <tr style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;">
+                            <td class="p-2"><input type="checkbox" name="" id=""></td>
+                            <td class="p-2"><img src="img/download3.png" alt="" class="table-image"></td>
+                            <td class="p-2"><a class="fw-semi-bold nav-link p-0" href="/apps/e-commerce/customer/product-details">Fitbit Sense Advanced Smartwatch with Tools fo...</a></td>
+                            <td class="p-2">
+                                <div class="avtar">
+                                    <img src="img/round-image-2.webp" alt="" class="rounded-pill">
+                                    <h6 class="mb-0 ms-3 text-900">Richard Dawkins</h6>
+                                </div>
+                            </td>
+                            <td class="p-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                
+                            </td>
+                            <td class="p-2">
+                                <p class="fs--1 fw-semi-bold text-1000 mb-0 line-clamp-3" style="font-size: 14px;">This Fitbit is fantastic! I was trying to be in better shape <br> and needed some motivation, so I decided to treat myself <br> brto a new Fitbit.</p>
+                            </td>
+                            <td class="p-2">
+                                <span class="pending">PENDING <i class="bi bi-clock fs-6 px-1"></i></span>
+                            </td>
+                            <td class="p-2">
+                                <p>Just now</p>
+                            </td>
+                        </tr>
+                        <tr style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;">
+                            <td class="p-2"><input type="checkbox" name="" id=""></td>
+                            <td class="p-2"><img src="img/download1.png" alt="" class="table-image"></td>
+                            <td class="p-2"><a class="fw-semi-bold nav-link p-0" href="/apps/e-commerce/customer/product-details">Fitbit Sense Advanced Smartwatch with Tools fo...</a></td>
+                            <td class="p-2">
+                                <div class="avtar">
+                                    <img src="img/round-image.webp" alt="" class="rounded-pill">
+                                    <h6 class="mb-0 ms-3 text-900">Richard Dawkins</h6>
+                                </div>
+                            </td>
+                            <td class="p-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                
+                            </td>
+                            <td class="p-2">
+                                <p class="fs--1 fw-semi-bold text-1000 mb-0 line-clamp-3" style="font-size: 14px;">This Fitbit is fantastic! I was trying to be in better shape <br> and needed some motivation, so I decided to treat myself <br> brto a new Fitbit.</p>
+                            </td>
+                            <td class="p-2">
+                                <span class="approved">APPROVED <i class="bi bi-check fs-4"></i></span>
+                            </td>
+                            <td class="p-2">
+                                <p>Just now</p>
+                            </td>
+                        </tr>
+                        <tr style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;">
+                            <td class="p-2"><input type="checkbox" name="" id=""></td>
+                            <td class="p-2"><img src="img/download2.png" alt="" class="table-image"></td>
+                            <td class="p-2"><a class="fw-semi-bold nav-link p-0" href="/apps/e-commerce/customer/product-details">Fitbit Sense Advanced Smartwatch with Tools fo...</a></td>
+                            <td class="p-2">
+                                <div class="avtar">
+                                    <img src="img/round-image-1.webp" alt="" class="rounded-pill">
+                                    <h6 class="mb-0 ms-3 text-900">Richard Dawkins</h6>
+                                </div>
+                            </td>
+                            <td class="p-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                
+                            </td>
+                            <td class="p-2">
+                                <p class="fs--1 fw-semi-bold text-1000 mb-0 line-clamp-3" style="font-size: 14px;">This Fitbit is fantastic! I was trying to be in better shape <br> and needed some motivation, so I decided to treat myself <br> brto a new Fitbit.</p>
+                            </td>
+                            <td class="p-2">
+                                <span class="pending">PENDING <i class="bi bi-clock fs-6 px-1"></i></span>
+                            </td>
+                            <td class="p-2">
+                                <p>Just now</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row mapandtable" style="height: 530px;">
+                <div class="col-12 col-sm-6 p-0 sub-mapandtable" style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;">
+                    <h1 class="regions">Top regions by revenue</h1>
+                    <p class="regions-p">Where you generated most of the revenue</p>
+
+                    <div style="width: 100%; overflow-y: hidden; height: 400px;" class="table-one">
+                        <table style="width: 100%; height: 400px; width: 1600px; overflow: scroll;">
+                            <tr style="border-top: 1px solid #cbd0dd;">
+                                <th>COUNTRY</th>
+                                <th>USERS</th>
+                                <th>TRANSACTIONS</th>
+                                <th>REVENUE</th>
+                                <th>CONV. RATE</th>
+                            </tr>
+                            <tr style="border-top: 1px solid #cbd0dd;">
+                                <td></td>
+                                <td style="font-size: 20px;">377,620</td>
+                                <td style="font-size: 20px;">236</td>
+                                <td style="font-size: 20px;">$15,758</td>
+                                <td style="font-size: 20px;">10.32%</td>
+                            </tr>
+                            <tr style="border-top: 1px solid #cbd0dd;">
+                                <td>3. 
+                                    <img src="img/america.png" alt="">
+                                    <a href="" class="" style="text-decoration: none; font-size: 14px;">USA</a>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">45679</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(24.3%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">35</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(19.7%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">5432</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(16.9%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">10.23%</span>
+                                </td>
+                            </tr>
+                            <tr style="border-top: 1px solid #cbd0dd;">
+                                <td>7. 
+                                    <img src="img/us.png" alt="">
+                                    <a href="" class="" style="text-decoration: none; font-size: 14px;">Australia</a>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">54789</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(12.7%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">32</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(14.0%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">3215</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(5.72%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">12.02%</span>
+                                </td>
+                            </tr>
+                            <tr style="border-top: 1px solid #cbd0dd;">
+                                <td>1. 
+                                    <img src="img/india.png" alt="">
+                                    <a href="" class="" style="text-decoration: none; font-size: 14px;">India</a>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">92896</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(41.6%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">67</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(34.3%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">7560</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(36.9%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">14.01%</span>
+                                </td>
+                            </tr>
+                            <tr style="border-top: 1px solid #cbd0dd;">
+                                <td>10. 
+                                    <img src="img/japan.png" alt="">
+                                    <a href="" class="" style="text-decoration: none; font-size: 14px;">Japan</a>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">12547</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(12.7%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">21</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(14.0%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">2541</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(5.72%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">20.01%</span>
+                                </td>
+                            </tr>
+                            <tr style="border-top: 1px solid #cbd0dd; border-bottom: 1px solid #cbd0dd;">
+                                <td>2. 
+                                    <img src="img/chine.png" alt="">
+                                    <a href="" class="" style="text-decoration: none; font-size: 14px;">China</a>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">50496</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(32.2%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">54</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(23.8%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">6532</span>
+                                    <span style="font-size: 14px; color: #6e7891;">(26.5%)</span>
+                                </td>
+                                <td>
+                                    <span style="font-size: 14px; font-weight: bolder;">23.56%</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 p-0 map" style="height: 530px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.2507231824984!2d72.87893757503477!3d21.142418180535564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be051c06d87ab17%3A0x809cd984bd5b6d6d!2sRed%20%26%20White%20Multimedia%20Education!5e0!3m2!1sen!2sin!4v1705463115483!5m2!1sen!2sin" width="100%" height="530px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="row footer-charts">
+                <div class="col-12 col-sm-6">
+                    <h1 class="regions1">Projection vs actual</h1>
+                    <p class="regions-p">Actual earnings vs projected earnings</p>
+                    <canvas id="footerChart" style="width:100%;"></canvas>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h1 class="regions2">Returning customer rate</h1>
+                    <p class="regions-p">Rate of customers returning to your shop over time</p>
+                    <canvas id="footerChart1" style="width:100%;"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

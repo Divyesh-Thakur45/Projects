@@ -1,0 +1,198 @@
+@media(min-width:320px) and (max-width:480px){
+    .menu{
+        display: block;
+        background-color: #6e7891;
+        color: #fff;
+        padding: 4px 9px;
+        border-radius: 50px;
+        font-weight: 800;
+        position: absolute;
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+    #side-navigation{
+        display: none;
+        
+    }
+    #navigation{
+        padding: 10px 0px;
+    }
+    .logo img{
+        height: 30px;
+        margin-left: 0px;
+        padding-left: 45px;
+    }
+    .logo p{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .sub-nav{
+        
+        justify-content: space-between;
+    }
+    .icones{
+        margin-right: 120px;
+    }
+    .sub-menu-wrap{
+        top: 110%;
+    }
+    .sub-menu-wrap-1{
+        top: 110%;
+    }
+    .dashboard-head{
+        padding-left: 0%;
+    }
+    .dashboard-head h1{
+        padding: 100px 0px 0px 20px;
+        font-weight: 1000;
+        font-size: 22px;
+    }
+    .dashboard-head p{
+        padding: 0px 0px 0px 20px;
+        font-size: 14px;
+    }
+    .line-1{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .main-star{
+        display: flex;
+        margin-left: 0%;
+        flex-direction: column;
+    }
+    .star{
+        margin-left: 0px;
+        padding: 0px 0px 0px 20px;
+    }
+    .total{
+        margin-left: 0%;
+    }
+    .sells-input{
+        margin-left: 0%;
+    }
+    .main-total{
+        padding: 20px 0px 50px 20px;
+    }
+    .total h6{
+        font-weight: 1000;
+        font-size: 22px;
+    }
+    .total p{
+        font-size: 14px;
+    }
+    .first-chart{
+        margin: 5% 0% 5% 0%;
+    }
+    .first-chart-1{
+        margin: 0%;
+        width: 100%;
+    }
+    .first-chart-2{
+        margin: 0%;
+        width: 100%;
+    }
+    .main-first-chart{
+        margin: 0%;
+    }
+    .main-first-chart-2{
+        margin: 0%;
+    }
+    .second-chart{
+        margin: 5% 0% 5% 0%;
+        width: 100%;
+    }
+    .second-chart-2{
+        margin: 5% 0% 5% 0%;
+        width: 100%;
+    }
+    .latest-review{
+        /* height: 15vh; */
+        display: flex;
+        /* padding-top: 5%; */
+        /* padding-bottom: 5%; */
+        flex-direction: column;
+        /* padding: 0% 0% 0% 15%; */
+    }
+    .scrollbar{
+        margin-left: 0%;
+        max-width: max-content;
+        overflow-y: auto;
+        margin-top: 55%;
+        width: 100%;
+    }
+    .total-1{
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 10px;
+    }
+    .sells-input-1{
+        margin-left: 0%;
+        margin-bottom: 10%;
+    }
+    .main-table{
+        margin-top: 30%;
+        /* margin-left: 18%; */
+        width: 100%;
+    }
+    .mapandtable{
+        padding: 10% 0% 0% 0%;
+        margin-bottom: 0%;
+        /* margin-top: 1000%; */
+        /* background-color: #f5f7fa; */
+    }
+    .footer-charts{
+        padding: 0% 0% 5% 0%;
+        margin-top: 50%;
+    }
+    .regions{
+        font-weight: 800;
+        font-size: 24px;
+        /* margin-top: 0%; */
+        padding: 5px 0px 0px 20px;
+    }
+    .regions-p{
+        padding: 5px 0px 0px 20px;
+    }
+    .regions1{
+        font-weight: 800;
+        font-size: 26px;
+        margin-top: 135%;
+    }
+    .table-one{
+        padding: 20px;
+    }
+    .total-1 h6{
+        /* padding: 100px 0px 0px 30px; */
+        font-weight: 800;
+        font-size: 24px;
+    }
+    .total-1 p{
+        /* padding: 0px 0px 0px 30px; */
+        color: #6e7891;
+        font-weight: 500;
+    }
+    .regions1{
+        font-weight: 800;
+        font-size: 24px;
+        /* margin-top: 50%; */
+        padding: 0px 0px 0px 20px;
+    }
+    
+    .regions2{
+        font-weight: 800;
+        font-size: 24px;
+        padding: 0px 0px 0px 20px
+    }
+    .footer-charts{
+        /* background-color: blue; */
+        /* height: 50vh; */
+    }
+    .map{
+        margin-bottom: 50%;
+    }
+    .dashboard{
+        background-color: #f5f7fa;
+        height: 80vh;
+    }
+}
