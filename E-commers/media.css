@@ -1,4 +1,4 @@
-@media(min-width:320px) and (max-width:480px){
+@media(min-width:300px) and (max-width:480px){
     .menu{
         display: block;
         background-color: #6e7891;

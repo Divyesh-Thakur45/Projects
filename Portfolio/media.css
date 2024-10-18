@@ -1,49 +1,195 @@
-@media(max-width:480px){
-    .navigation{display: none;}
-    .bar i{display: block;position: fixed;}
-    .colorlib-home{margin: 0%;width: 100%;}
-    .colorlib-home h1{padding: 28% 0% 0% 5%;}
-    .colorlib-home p{padding: 0% 0% 0% 5%;}
-    .colorlib-home a{margin: 0% 0% 0% 5%;}
-    .about-para p{padding: 0% 0% 0% 2%;}
-    .about-para h1{padding: 0% 0% 3% 2%;}
-    .box{margin:10% 0% 10% 0%; width: 100%;}
-    .about-box{margin: 0% 0% 10% 0%;}
-    .service-box{margin-left: 0%; width: 97%;padding: 0px 0px 0px 0px;}
-    .service-box-main{margin-left: 0%;}
-    .dare .icon{left: 37%;}
-    .countor-image{margin-left: 0%; width: 100%;}
-    .skill-progress{margin-left: 0%; width: 100%;}
-    .education-accordion{margin-left: 0%;}
-    .experience-page{margin-left: 2%;}
-    .timeline-icone{left: -7%; top: 1%;}
-    .nav-tabs{margin: 0%;}
-    .work-page{margin-left: 0%;}
-    .section-image{margin-left: 0%;}
-    .footer{margin-left: 0%;}
+@media (min-width: 300px) and (max-width:480px) {
+    .navigation {
+        display: none;
+    }
+
+    .bar i {
+        display: block;
+        position: fixed;
+    }
+
+    .colorlib-home {
+        margin: 0%;
+        width: 100%;
+    }
+
+    .colorlib-home h1 {
+        padding: 28% 0% 0% 5%;
+    }
+
+    .colorlib-home p {
+        padding: 0% 0% 0% 5%;
+    }
+
+    .colorlib-home a {
+        margin: 0% 0% 0% 5%;
+    }
+
+    .about-para p {
+        padding: 0% 0% 0% 2%;
+    }
+
+    .about-para h1 {
+        padding: 0% 0% 3% 2%;
+    }
+
+    .box {
+        margin: 10% 0% 10% 0%;
+        width: 100%;
+    }
+
+    .about-box {
+        margin: 0% 0% 10% 0%;
+    }
+
+    .service-box {
+        margin-left: 0%;
+        width: 97%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .service-box-main {
+        margin-left: 0%;
+    }
+
+    .dare .icon {
+        left: 37%;
+    }
+
+    .countor-image {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .skill-progress {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .education-accordion {
+        margin-left: 0%;
+    }
+
+    .experience-page {
+        margin-left: 2%;
+    }
+
+    .timeline-icone {
+        left: -7%;
+        top: 1%;
+    }
+
+    .nav-tabs {
+        margin: 0%;
+    }
+
+    .work-page {
+        margin-left: 0%;
+    }
+
+    .section-image {
+        margin-left: 0%;
+    }
+
+    .footer {
+        margin-left: 0%;
+    }
 }
 
-@media(max-width:576px){
-    .navigation{display: none;}
-    .bar i{display: block;position: fixed;}
-    .colorlib-home{margin: 0%;width: 100%;}
-    .colorlib-home h1{padding: 28% 0% 0% 5%;}
-    .colorlib-home p{padding: 0% 0% 0% 5%;}
-    .colorlib-home a{margin: 0% 0% 0% 5%;}
-    .about-para p{padding: 0% 0% 0% 2%;}
-    .about-para h1{padding: 0% 0% 3% 2%;}
-    .box{margin:10% 0% 10% 0%; width: 100%;}
-    .about-box{margin: 0% 0% 10% 0%;}
-    .service-box{margin-left: 0%; width: 97%;padding: 0px 0px 0px 0px;}
-    .service-box-main{margin-left: 0%;}
-    .dare .icon{left: 37%;}
-    .countor-image{margin-left: 0%; width: 100%;}
-    .skill-progress{margin-left: 0%; width: 100%;}
-    .education-accordion{margin-left: 0%;}
-    .experience-page{margin-left: 2%;}
-    .timeline-icone{left: -7%; top: 1%;}
-    .nav-tabs{margin: 0%;}
-    .work-page{margin-left: 0%;}
-    .section-image{margin-left: 0%;}
-    .footer{margin-left: 0%;}
+@media(max-width:576px) {
+    .navigation {
+        display: none;
+    }
+
+    .bar i {
+        display: block;
+        position: fixed;
+    }
+
+    .colorlib-home {
+        margin: 0%;
+        width: 100%;
+    }
+
+    .colorlib-home h1 {
+        padding: 28% 0% 0% 5%;
+    }
+
+    .colorlib-home p {
+        padding: 0% 0% 0% 5%;
+    }
+
+    .colorlib-home a {
+        margin: 0% 0% 0% 5%;
+    }
+
+    .about-para p {
+        padding: 0% 0% 0% 2%;
+    }
+
+    .about-para h1 {
+        padding: 0% 0% 3% 2%;
+    }
+
+    .box {
+        margin: 10% 0% 10% 0%;
+        width: 100%;
+    }
+
+    .about-box {
+        margin: 0% 0% 10% 0%;
+    }
+
+    .service-box {
+        margin-left: 0%;
+        width: 97%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .service-box-main {
+        margin-left: 0%;
+    }
+
+    .dare .icon {
+        left: 37%;
+    }
+
+    .countor-image {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .skill-progress {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .education-accordion {
+        margin-left: 0%;
+    }
+
+    .experience-page {
+        margin-left: 2%;
+    }
+
+    .timeline-icone {
+        left: -7%;
+        top: 1%;
+    }
+
+    .nav-tabs {
+        margin: 0%;
+    }
+
+    .work-page {
+        margin-left: 0%;
+    }
+
+    .section-image {
+        margin-left: 0%;
+    }
+
+    .footer {
+        margin-left: 0%;
+    }
 }
